@@ -90,22 +90,142 @@ body{
     margin-left: 50px;
    margin-top: 2%;
 }
+.mid{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr; 
+grid-template-rows: 1fr 1fr;   
+
+justify-items: center;
+}
+.mid *{
+    justify-items: center;
+
+}
+
 #azul1{
     background-color: rgb(179, 229, 252);
-    margin-left: 18%;
-    margin-top: 7%;
+    width: 125px;
+    height: 125px;
+    margin: 5vh 0;
+}
+#oscuritoAzul1{
+    width: 125px;
+    height: 4vh;
+    background-color: rgb(128, 222, 234);
+}
+#oscuritoAzulMedio1{
+    background-color: rgb(129, 212, 250); 
+    width: 50%;
+    height: 50%;
+    margin-top: 12.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#rojo1{
+    background-color: rgb(255, 138, 101);
+    margin: 5vh 0;
     width: 125px;
     height: 125px;
 }
-#oscuritoAzul{
+#oscuritoRojo1{
     width: 125px;
-    height: 15%;
+    height: 4vh;
+    background-color:  rgb(255, 112, 67);
+     
+}
+#oscuritoRojoMedio1{
+    background-color: rgb(255, 112, 67); 
+    width: 50%;
+    height: 50%;
+    
+    margin-top: 12.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#naranja1{
+    background-color: rgb(255, 241, 118);
+    margin: 5vh 0;
+    width: 125px;
+    height: 125px;
+}
+#oscuritoNaranja1{
+    width: 125px;
+    height: 4vh;
+    background-color:  rgb(255, 213, 79);
+}
+#oscuritoNaranjaMedio1{
+    background-color: rgb(255, 213, 79); 
+    width: 50%;
+    height: 50%;
+    
+    margin-top: 12.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#naranja2{
+    background-color: rgb(255, 241, 118);
+    margin: 5vh 0;
+    width: 125px;
+    height: 125px;
+}
+#oscuritoNaranja2{
+    width: 125px;
+    height: 4vh;
+    background-color:  rgb(255, 213, 79);
+}
+#oscuritoNaranjaMedio2{
+    background-color: rgb(255, 213, 79); 
+    width: 50%;
+    height: 50%;
+    
+    margin-top: 12.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#azul2{
+    background-color: rgb(179, 229, 252);
+    width: 125px;
+    height: 125px;
+    margin: 5vh 0;
+}
+#oscuritoAzul2{
+    width: 125px;
+    height: 4vh;
     background-color: rgb(128, 222, 234);
 }
-#oscuritoAzulMedio{
+#oscuritoAzulMedio2{
     background-color: rgb(129, 212, 250); 
-    width: 75px;
-    height: 75px;
+    width: 50%;
+    height: 50%;
+    margin-top: 12.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#rojo2{
+    background-color: rgb(255, 138, 101);
+    margin: 5vh 0;
+    width: 125px;
+    height: 125px;
+}
+#oscuritoRojo2{
+    width: 125px;
+    height: 4vh;
+    background-color:  rgb(255, 112, 67);
+     
+}
+#oscuritoRojoMedio2{
+    background-color: rgb(255, 112, 67); 
+    width: 50%;
+    height: 50%;
+    
+    margin-top: 12.5%;
     display: flex;
     justify-content: center;
     align-items: center;
